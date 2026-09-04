@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archive</title>
+<title>Aeternum Agenda</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201527.91%201527.91%22%3E%3Cg%20fill%3D%22%23000000%22%20transform%3D%22translate%28113.95%201120.95%29%20scale%281%20-1%29%22%3E%3Cpath%20d%3D%22M267%20714H400L675%200H541L474%20189H189L122%200H-7ZM223%20284H441L334%20591H331Z%22%2F%3E%3Cpath%20d%3D%22M267%20714H400L675%200H541L474%20189H189L122%200H-7ZM223%20284H441L334%20591H331Z%22%20transform%3D%22translate%28632.00%200%29%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E">
 <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACeklEQVR4nO2WT4jNURTHP++934whSQ2DWCkWbEimKLGwoCglG0Rk408WNopJyYaUhaZodlIospCIZmVlMAslYRZkIbvJn5SZNzO6+vzq+M3vzbyd5J263XvPPf++55x7fz9oUYv+d6o0IZOF9Rgw0YROLdged/y7GTgCdIm+FxhWrywTVdFuA9bIuwu8UqfpTFSdV+ooH4dLyhLBpDED+BR07oSyNE2Z8wWgDvx0floIMFLuYKuO62btK7BwCr2GZekAPmjsJvDdFK5ugCjf31LuIfBa/WNTZG4SZQaxXeXkeDEw4P5SkKOAbBHwRbkNwHmDGQglmpZqzrdVfuD+nIY/ArPlVQrBHFfms3Y2uU+l6C7YL6Wq8xLgm8r7dZRSPypvl7zccY7umUH3yZ8FDKnTW5K5SZQfnlBp2AZqA9qBFzq4HwLOEXWHh2qLttLZZXnpZsxRtmEpKhodVOlK4fyQ/B/AUnkpMESYzl4WdJZ7i9LZ7gJQYjpqIlhnutM1mg/0hLPUZCPATGCPfVEX2U6dJGentD3mnK5iJ3AAuNHoQcqc+wqPT9lIBt766FQMphmdETOSl4/YRAnJXGCHvCdAv+txFZKhVaJNhjYCj4GDnr0Hrik/EZ7secBRe2kvcCY828RA9oWI11NOnd6QvNu7RJZ0TtOYnqvzzr75412oOj/S2BvT2+bIHImHt2BUY1ddp9qvUK496HTYQyftiZTpzRF4zc3agP5iFCh5JWOm8jFYAFMEtyzI9munloXPalqfdX9dXrFb83t+L9RxTBCpZ8ootzHk13SB1zgzc3+XKmFdDema7tfrd/oKvGZ+vWJJUy+0qEUt4hfMO7mwO2epfwAAAABJRU5ErkJggg==">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -394,7 +394,7 @@ body.is-open.has-selection .viewer{transform:none}
 
 <header class="header">
   <nav class="header_row">
-    <a class="rootURL" id="archiveTitle" href="#">Archive</a>
+    <a class="rootURL" id="archiveTitle" href="#">Aeternum Agenda</a>
     <a class="count-live" id="counter">0 / 256</a>
     <span class="spacer"></span>
     <a class="tool" id="addBtn" role="button" tabindex="0" aria-pressed="false">Add</a>
@@ -411,7 +411,7 @@ body.is-open.has-selection .viewer{transform:none}
   <div class="info-meta">
     <div>
       <label class="info-detail">Archive title
-        <input type="text" id="titleInput" placeholder="Archive">
+        <input type="text" id="titleInput" placeholder="Aeternum Agenda">
       </label>
       <label class="info-detail" style="margin-top:10px">Introduction
         <textarea id="blurbInput" placeholder="A short paragraph shown above the list."></textarea>
@@ -507,7 +507,7 @@ body.is-open.has-selection .viewer{transform:none}
 const DEFAULT_SECTIONS = ["Unsorted"];
 const DEFAULT_BLURB = "An image archive assembled toward 256 entries. Records stay in this browser, sorted by section, and cited from the source, credit, and date attached to each.";
 let S = {
-  title: "Archive",
+  title: "Aeternum Agenda",
   target: 256,
   folder: "images/",
   blurb: DEFAULT_BLURB,
@@ -526,7 +526,7 @@ let S = {
 
 const store = {
   save(){ try{ localStorage.setItem("archive.v1", JSON.stringify({title:S.title,target:S.target,folder:S.folder,blurb:S.blurb,sections:S.sections,items:S.items})); }catch(e){} },
-  load(){ try{ const r = localStorage.getItem("archive.v1"); if(!r) return; const d = JSON.parse(r); Object.assign(S,{title:d.title||"Archive",target:d.target||256,folder:d.folder||"images/",blurb:d.blurb||DEFAULT_BLURB,sections:d.sections&&d.sections.length?d.sections:[...DEFAULT_SECTIONS],items:d.items||[]}); }catch(e){} }
+  load(){ try{ const r = localStorage.getItem("archive.v1"); if(!r) return; const d = JSON.parse(r); Object.assign(S,{title:d.title||"Aeternum Agenda",target:d.target||256,folder:d.folder||"images/",blurb:d.blurb||DEFAULT_BLURB,sections:d.sections&&d.sections.length?d.sections:[...DEFAULT_SECTIONS],items:d.items||[]}); }catch(e){} }
 };
 
 /* ---------- helpers ---------- */
@@ -1125,7 +1125,7 @@ $("#deleteSection").onclick = e => {
   S.activeSection="All"; S.panelOpen = true; render();
 };
 
-$("#titleInput").oninput = e => { S.title = e.target.value || "Archive"; render(); };
+$("#titleInput").oninput = e => { S.title = e.target.value || "Aeternum Agenda"; render(); };
 $("#blurbInput").oninput = e => { S.blurb = e.target.value || DEFAULT_BLURB; $("#blurb").textContent = S.blurb; store.save(); };
 $("#targetInput").oninput = e => { S.target = Math.max(1, parseInt(e.target.value||"256",10)); render(); };
 $("#folderInput").oninput = e => { S.folder = e.target.value || "images/"; store.save(); };
@@ -1202,6 +1202,8 @@ async function boot(){
       }
     }catch(e){}
   }
+  if(!S.title || S.title === "Archive") S.title = "Aeternum Agenda";
+  store.save();
   $("#titleInput").value = S.title;
   $("#targetInput").value = S.target;
   $("#folderInput").value = S.folder;
