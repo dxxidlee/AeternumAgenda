@@ -1191,13 +1191,17 @@ window.addEventListener("keydown",e=>{
 /* ---------- boot ---------- */
 async function boot(){
   store.load();
-  try{
-    const res = await fetch("archive-manifest.json");
-    if(res.ok){
-      applyManifest(await res.json());
-      store.save();
-    }
-  }catch(e){}
+  const manifests = ["archive-manifest.json","0903-02-archive-manifest.json"];
+  for(const url of manifests){
+    try{
+      const res = await fetch(url);
+      if(res.ok){
+        applyManifest(await res.json());
+        store.save();
+        break;
+      }
+    }catch(e){}
+  }
   $("#titleInput").value = S.title;
   $("#targetInput").value = S.target;
   $("#folderInput").value = S.folder;
