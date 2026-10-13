@@ -70,6 +70,14 @@
    "next": "",
    "id": "w-2026-10-02",
    "start": "2026-10-02"
+  },
+  {
+   "id": "w-2026-10-09",
+   "start": "2026-10-09",
+   "title": "",
+   "summary": "",
+   "questions": "",
+   "next": ""
   }
  ],
  "items": [
@@ -3379,6 +3387,17 @@
    "poster": "files/week-06/posters/aeternum-agenda-v2.jpg",
    "notes": "This site: the image archive rebuilt as a Living Archive for Core 4: Thesis, organised by week, thread, and kind.",
    "added": "2026-10-02"
+  },
+  {
+   "id": "7dac8h0",
+   "title": "Thesis Exchange",
+   "format": "pdf",
+   "kind": "Presentation",
+   "week": "w-2026-10-09",
+   "src": "files/week-07/Thesis-Exchange.pdf",
+   "poster": "files/week-07/posters/Thesis-Exchange.jpg",
+   "url": "https://www.figma.com/proto/Trd1H1f11Q7FmDosxydefZ/Prototype-I?node-id=240-130&p=f&viewport=148%2C475%2C0.02&t=zW2byMLr2pcwQcYo-1&scaling=contain&content-scaling=fixed&page-id=209%3A26",
+   "added": "2026-10-12"
   }
  ]
 }
