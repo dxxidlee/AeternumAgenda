@@ -78,6 +78,14 @@
    "summary": "",
    "questions": "",
    "next": ""
+  },
+  {
+   "id": "w-2026-10-16",
+   "start": "2026-10-16",
+   "title": "",
+   "summary": "",
+   "questions": "",
+   "next": ""
   }
  ],
  "items": [
@@ -3398,6 +3406,39 @@
    "poster": "files/week-07/posters/Thesis-Exchange.jpg",
    "url": "https://www.figma.com/proto/Trd1H1f11Q7FmDosxydefZ/Prototype-I?node-id=240-130&p=f&viewport=148%2C475%2C0.02&t=zW2byMLr2pcwQcYo-1&scaling=contain&content-scaling=fixed&page-id=209%3A26",
    "added": "2026-10-12"
+  },
+  {
+   "id": "jb6nx3h",
+   "title": "Lathe Intro",
+   "format": "video",
+   "kind": "Prototype",
+   "week": "w-2026-10-16",
+   "src": "files/week-08/Lathe-Intro.mp4",
+   "poster": "files/week-08/posters/Lathe-Intro.jpg",
+   "added": "2026-10-16"
+  },
+  {
+   "id": "luyqsnt",
+   "title": "Lathe",
+   "format": "link",
+   "kind": "Prototype",
+   "week": "w-2026-10-16",
+   "url": "https://lathe-psi.vercel.app/",
+   "embed": true,
+   "poster": "files/week-08/posters/lathe-site.jpg",
+   "sourceName": "Vercel",
+   "added": "2026-10-16"
+  },
+  {
+   "id": "tj39qee",
+   "title": "Prototype I",
+   "format": "pdf",
+   "kind": "Presentation",
+   "week": "w-2026-10-16",
+   "src": "files/week-08/Prototype-I.pdf",
+   "poster": "files/week-08/posters/Prototype-I.jpg",
+   "url": "https://www.figma.com/proto/Trd1H1f11Q7FmDosxydefZ/Prototype-I?node-id=299-70&p=f&viewport=-356%2C547%2C0.07&t=FNuTQw0NZWxESQ3B-1&scaling=contain&content-scaling=fixed&page-id=267%3A26",
+   "added": "2026-10-16"
   }
  ]
 }
