@@ -86,6 +86,22 @@
    "summary": "",
    "questions": "",
    "next": ""
+  },
+  {
+   "id": "w-2026-10-23",
+   "start": "2026-10-23",
+   "title": "",
+   "summary": "",
+   "questions": "",
+   "next": ""
+  },
+  {
+   "id": "w-2026-10-30",
+   "start": "2026-10-30",
+   "title": "",
+   "summary": "",
+   "questions": "",
+   "next": ""
   }
  ],
  "items": [
@@ -3439,6 +3455,46 @@
    "poster": "files/week-08/posters/Prototype-I.jpg",
    "url": "https://www.figma.com/proto/Trd1H1f11Q7FmDosxydefZ/Prototype-I?node-id=299-70&p=f&viewport=-356%2C547%2C0.07&t=FNuTQw0NZWxESQ3B-1&scaling=contain&content-scaling=fixed&page-id=267%3A26",
    "added": "2026-10-16"
+  },
+  {
+   "id": "zuicbot",
+   "title": "P2 Bento",
+   "format": "pdf",
+   "kind": "Prototype",
+   "week": "w-2026-10-23",
+   "src": "files/week-09/P2-BENTO.pdf",
+   "poster": "files/week-09/posters/P2-BENTO.jpg",
+   "added": "2026-10-30"
+  },
+  {
+   "id": "paqodwm",
+   "title": "RX V001 Seniority Bookmap",
+   "format": "pdf",
+   "kind": "Prototype",
+   "week": "w-2026-10-30",
+   "src": "files/week-10/RX-V001-Seniority-bookmap.pdf",
+   "poster": "files/week-10/posters/RX-V001-Seniority-bookmap.jpg",
+   "added": "2026-10-30"
+  },
+  {
+   "id": "6p24oqt",
+   "title": "RX Order Series Map",
+   "format": "pdf",
+   "kind": "Prototype",
+   "week": "w-2026-10-30",
+   "src": "files/week-10/RX-Order-Series-Map.pdf",
+   "poster": "files/week-10/posters/RX-Order-Series-Map.jpg",
+   "added": "2026-10-30"
+  },
+  {
+   "id": "th5j0zs",
+   "title": "RX Order 1st Draft",
+   "format": "pdf",
+   "kind": "Prototype",
+   "week": "w-2026-10-30",
+   "src": "files/week-10/rx-order-1st-draft.pdf",
+   "poster": "files/week-10/posters/rx-order-1st-draft.jpg",
+   "added": "2026-10-30"
   }
  ]
 }
